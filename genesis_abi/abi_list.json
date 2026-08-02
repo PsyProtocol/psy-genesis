@@ -1,0 +1,48 @@
+{
+  "users": [],
+  "precompiles": [
+    {
+      "contract_id": 0,
+      "name": "token",
+      "deployer": "f83aa03c3e21321421696202b90f4dab0a9f87237c231bbba58b8f93c799126e",
+      "abi_path": "PsyTokenContract.json",
+      "state_tree_height": 32
+    },
+    {
+      "contract_id": 1,
+      "name": "mining_rewards",
+      "deployer": "f83aa03c3e21321421696202b90f4dab0a9f87237c231bbba58b8f93c799126e",
+      "abi_path": "PsyPOWMiningRewardsClaimContract.json",
+      "state_tree_height": 32
+    },
+    {
+      "contract_id": 2,
+      "name": "deposit_tree",
+      "deployer": "f83aa03c3e21321421696202b90f4dab0a9f87237c231bbba58b8f93c799126e",
+      "abi_path": "PsyDepositTreeContract.json",
+      "state_tree_height": 32
+    },
+    {
+      "contract_id": 3,
+      "name": "withdrawal_tree",
+      "deployer": "f83aa03c3e21321421696202b90f4dab0a9f87237c231bbba58b8f93c799126e",
+      "abi_path": "PsyWithdrawalTreeContract.json",
+      "state_tree_height": 32
+    },
+    {
+      "contract_id": 4,
+      "name": "usdt",
+      "deployer": "f83aa03c3e21321421696202b90f4dab0a9f87237c231bbba58b8f93c799126e",
+      "abi_path": "USDTTokenContract.json",
+      "state_tree_height": 32
+    },
+    {
+      "contract_id": 5,
+      "name": "faucet",
+      "deployer": "f83aa03c3e21321421696202b90f4dab0a9f87237c231bbba58b8f93c799126e",
+      "abi_path": "PsyFaucetContract.json",
+      "state_tree_height": 32
+    }
+  ],
+  "contracts": []
+}

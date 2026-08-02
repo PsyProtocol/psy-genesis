@@ -31,6 +31,9 @@
       "prove_proxy_url": [
         "http://127.0.0.1:9999"
       ],
+      "faucet_rpc_url": [
+        "http://127.0.0.1:9998"
+      ],
       "api_services_url": [
         "http://127.0.0.1:3000"
       ],
@@ -40,9 +43,7 @@
       "explorer_url": [
         "http://127.0.0.1:5178"
       ],
-      "nostr_relay_urls": [
-        "ws://127.0.0.1:8081"
-      ],
+      "nostr_relay_url": "ws://127.0.0.1:8081",
       "whitelist": {
         "enabled": false,
         "secp256k1": []
@@ -92,6 +93,9 @@
       "prove_proxy_url": [
         "https://prove-stg.psy-protocol.xyz"
       ],
+      "faucet_rpc_url": [
+        "https://faucet-stg.psy-protocol.xyz"
+      ],
       "api_services_url": [
         "https://services-stg.psy-protocol.xyz"
       ],
@@ -101,9 +105,7 @@
       "explorer_url": [
         "https://explorer-stg.psy-protocol.xyz"
       ],
-      "nostr_relay_urls": [
-        "wss://nostr-stg.psy-protocol.xyz/"
-      ],
+      "nostr_relay_url": "wss://nostr-stg.psy-protocol.xyz/",
       "native_currency": "0",
       "native_currency_decimal": 9,
       "native_currency_name": "Psy",
@@ -117,12 +119,7 @@
       "anvilForkSourceUrlEnv": "SEPOLIA_RPC_URL",
       "l1_rpc_urls": [
         "https://ethereum-sepolia-rpc.publicnode.com"
-      ],
-      "whitelist": {
-        "enabled": false,
-        "secp256k1": []
-      },
-      "genesis": {}
+      ]
     },
     "ethereum": {
       "magic": "0x1337CF514544C069",
@@ -155,6 +152,9 @@
       "prove_proxy_url": [
         "https://prove.psy.xyz"
       ],
+      "faucet_rpc_url": [
+        "https://faucet.psy.xyz"
+      ],
       "api_services_url": [
         "https://services.psy.xyz"
       ],
@@ -164,9 +164,7 @@
       "explorer_url": [
         "https://explorer.psy.xyz"
       ],
-      "nostr_relay_urls": [
-        "wss://nostr.psy.xyz/"
-      ],
+      "nostr_relay_url": "wss://nostr.psy.xyz/",
       "native_currency": "0",
       "native_currency_decimal": 9,
       "native_currency_name": "Psy",
@@ -180,76 +178,7 @@
       "anvilForkSourceUrlEnv": "ETH_RPC_URL",
       "l1_rpc_urls": [
         "https://ethereum-rpc.publicnode.com"
-      ],
-      "whitelist": {
-        "enabled": false,
-        "secp256k1": []
-      }
-    },
-    "bsc": {
-      "magic": "0x1337CF514544C169",
-      "users_per_realm": 1048576,
-      "global_user_tree_height": 32,
-      "realm_user_tree_height": 20,
-      "group_realm_height": 1,
-      "realm_configs": [
-        {
-          "id": 0,
-          "rpc_url": [
-            "http://127.0.0.1:13380"
-          ]
-        },
-        {
-          "id": 1,
-          "rpc_url": [
-            "http://127.0.0.1:13390"
-          ]
-        }
-      ],
-      "coordinator_configs": [
-        {
-          "id": 0,
-          "rpc_url": [
-            "http://127.0.0.1:1337"
-          ]
-        }
-      ],
-      "prove_proxy_url": [
-        "http://127.0.0.1:9999"
-      ],
-      "api_services_url": [
-        "http://127.0.0.1:3000"
-      ],
-      "mine_services_url": [
-        "http://127.0.0.1:3939"
-      ],
-      "indexer_graphql_url": [
-        "http://127.0.0.1:8090/v1/graphql"
-      ],
-      "nostr_relay_urls": [
-        "ws://127.0.0.1:7447"
-      ],
-      "l1_rpc_urls": [
-        "http://127.0.0.1:8545"
-      ],
-      "anvilForkSourceUrlEnv": "BSC_RPC_URL",
-      "explorer_url": [
-        "http://127.0.0.1:5178"
-      ],
-      "whitelist": {
-        "enabled": false,
-        "secp256k1": []
-      },
-      "native_currency": "0",
-      "native_currency_decimal": 9,
-      "native_currency_name": "Psy",
-      "native_currency_symbol": "PSY",
-      "fees": {
-        "register_user_fee": 0,
-        "deploy_contract_fee": 0,
-        "guta_fee": 1000000000,
-        "da_fee": 1000
-      }
+      ]
     }
   },
   "defaultNetwork": "localhost"
