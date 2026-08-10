@@ -60,6 +60,9 @@
       },
       "l1_rpc_urls": [
         "http://127.0.0.1:8545"
+      ],
+      "bridge_url": [
+        "http://127.0.0.1:5177"
       ]
     },
     "sepolia": {
@@ -119,7 +122,15 @@
       "anvilForkSourceUrlEnv": "SEPOLIA_RPC_URL",
       "l1_rpc_urls": [
         "https://ethereum-sepolia-rpc.publicnode.com"
-      ]
+      ],
+      "bridge_url": [
+        "https://app-stg.psy-protocol.xyz"
+      ],
+      "genesis": {},
+      "whitelist": {
+        "enabled": false,
+        "secp256k1": []
+      }
     },
     "ethereum": {
       "magic": "0x1337CF514544C069",
@@ -178,7 +189,14 @@
       "anvilForkSourceUrlEnv": "ETH_RPC_URL",
       "l1_rpc_urls": [
         "https://ethereum-rpc.publicnode.com"
-      ]
+      ],
+      "bridge_url": [
+        "https://app.psy-protocol.xyz"
+      ],
+      "whitelist": {
+        "enabled": false,
+        "secp256k1": []
+      }
     }
   },
   "defaultNetwork": "localhost"
