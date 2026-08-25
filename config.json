@@ -132,6 +132,75 @@
         "secp256k1": []
       }
     },
+    "bsc-testnet": {
+      "magic": "0x1337CF514544C269",
+      "users_per_realm": 1048576,
+      "global_user_tree_height": 32,
+      "realm_user_tree_height": 20,
+      "group_realm_height": 1,
+      "realm_configs": [
+        {
+          "id": 0,
+          "rpc_url": [
+            "https://realm0-bsc-testnet.psy-protocol.xyz"
+          ]
+        },
+        {
+          "id": 1,
+          "rpc_url": [
+            "https://realm1-bsc-testnet.psy-protocol.xyz"
+          ]
+        }
+      ],
+      "coordinator_configs": [
+        {
+          "id": 0,
+          "rpc_url": [
+            "https://coordinator-bsc-testnet.psy-protocol.xyz"
+          ]
+        }
+      ],
+      "prove_proxy_url": [
+        "https://prove-bsc-testnet.psy-protocol.xyz"
+      ],
+      "faucet_rpc_url": [
+        "https://faucet-bsc-testnet.psy-protocol.xyz"
+      ],
+      "api_services_url": [
+        "https://services-bsc-testnet.psy-protocol.xyz"
+      ],
+      "indexer_graphql_url": [
+        "https://indexer-bsc-testnet.psy-protocol.xyz/v1/graphql"
+      ],
+      "explorer_url": [
+        "https://explorer-bsc-testnet.psy-protocol.xyz"
+      ],
+      "nostr_relay_url": "wss://nostr-bsc-testnet.psy-protocol.xyz/",
+      "native_currency": "0",
+      "native_currency_decimal": 9,
+      "native_currency_name": "Psy",
+      "native_currency_symbol": "PSY",
+      "fees": {
+        "register_user_fee": 0,
+        "deploy_contract_fee": 0,
+        "guta_fee": 1000000000,
+        "da_fee": 1000
+      },
+      "anvilForkSourceUrlEnv": "BSC_TESTNET_RPC_URL",
+      "l1_chain_id": 97,
+      "l1_required_confirmations": 10,
+      "l1_rpc_urls": [
+        "https://bsc-testnet-dataseed.bnbchain.org"
+      ],
+      "bridge_url": [
+        "https://app-bsc-testnet.psy-protocol.xyz"
+      ],
+      "genesis": {},
+      "whitelist": {
+        "enabled": false,
+        "secp256k1": []
+      }
+    },
     "ethereum": {
       "magic": "0x1337CF514544C069",
       "users_per_realm": 1048576,

@@ -4,7 +4,8 @@ Shared genesis configuration and contract artifacts for PsyProtocol projects.
 
 ## Contents
 
-- `config.json` — Canonical network configuration (localhost, sepolia, ethereum, bsc)
+- `config.json` — Canonical network configuration (localhost, sepolia,
+  bsc-testnet, ethereum)
 - `genesis_contracts.json` — Zstd-compressed pre-deployed genesis contract definitions
   (`9,409,903` bytes)
 - `genesis_abi/` — Canonical sidecar ABIs and `abi_list.json` for the six
