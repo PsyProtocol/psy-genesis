@@ -142,13 +142,13 @@
         {
           "id": 0,
           "rpc_url": [
-            "https://realm0-bsc-testnet.psy-protocol.xyz"
+            "https://realm0-stg.psy-protocol.xyz"
           ]
         },
         {
           "id": 1,
           "rpc_url": [
-            "https://realm1-bsc-testnet.psy-protocol.xyz"
+            "https://realm1-stg.psy-protocol.xyz"
           ]
         }
       ],
@@ -156,26 +156,26 @@
         {
           "id": 0,
           "rpc_url": [
-            "https://coordinator-bsc-testnet.psy-protocol.xyz"
+            "https://coordinator-stg.psy-protocol.xyz"
           ]
         }
       ],
       "prove_proxy_url": [
-        "https://prove-bsc-testnet.psy-protocol.xyz"
+        "https://prove-stg.psy-protocol.xyz"
       ],
       "faucet_rpc_url": [
-        "https://faucet-bsc-testnet.psy-protocol.xyz"
+        "https://faucet-stg.psy-protocol.xyz"
       ],
       "api_services_url": [
-        "https://services-bsc-testnet.psy-protocol.xyz"
+        "https://services-stg.psy-protocol.xyz"
       ],
       "indexer_graphql_url": [
-        "https://indexer-bsc-testnet.psy-protocol.xyz/v1/graphql"
+        "https://indexer-stg.psy-protocol.xyz/v1/graphql"
       ],
       "explorer_url": [
-        "https://explorer-bsc-testnet.psy-protocol.xyz"
+        "https://explorer-stg.psy-protocol.xyz"
       ],
-      "nostr_relay_url": "wss://nostr-bsc-testnet.psy-protocol.xyz/",
+      "nostr_relay_url": "wss://nostr-stg.psy-protocol.xyz/",
       "native_currency": "0",
       "native_currency_decimal": 9,
       "native_currency_name": "Psy",
@@ -193,7 +193,7 @@
         "https://bsc-testnet-dataseed.bnbchain.org"
       ],
       "bridge_url": [
-        "https://app-bsc-testnet.psy-protocol.xyz"
+        "https://app-stg.psy-protocol.xyz"
       ],
       "genesis": {},
       "whitelist": {
