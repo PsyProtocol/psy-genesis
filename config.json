@@ -63,7 +63,8 @@
       ],
       "bridge_url": [
         "http://127.0.0.1:5177"
-      ]
+      ],
+      "l1_config_url": "http://127.0.0.1:5177/config.json"
     },
     "sepolia": {
       "magic": "0x1337CF514544C169",
@@ -126,6 +127,7 @@
       "bridge_url": [
         "https://app-stg.psy-protocol.xyz"
       ],
+      "l1_config_url": "https://psy-config-stg.pages.dev/config.json",
       "genesis": {},
       "whitelist": {
         "enabled": false,
@@ -193,6 +195,7 @@
       "bridge_url": [
         "https://app.psy-protocol.xyz"
       ],
+      "l1_config_url": "https://psy-config.pages.dev/config.json",
       "whitelist": {
         "enabled": false,
         "secp256k1": []
