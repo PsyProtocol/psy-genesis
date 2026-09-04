@@ -6,20 +6,25 @@
       "global_user_tree_height": 32,
       "realm_user_tree_height": 20,
       "group_realm_height": 1,
+      "p2p": {
+        "checkpoints_per_epoch": 10
+      },
       "realm_configs": [
         {
           "id": 0,
           "rpc_url": [
             "http://127.0.0.1:13380",
             "http://127.0.0.1:13381"
-          ]
+          ],
+          "validators": []
         },
         {
           "id": 1,
           "rpc_url": [
             "http://127.0.0.1:13390",
             "http://127.0.0.1:13391"
-          ]
+          ],
+          "validators": []
         }
       ],
       "coordinator_configs": [
@@ -74,18 +79,23 @@
       "global_user_tree_height": 32,
       "realm_user_tree_height": 20,
       "group_realm_height": 1,
+      "p2p": {
+        "checkpoints_per_epoch": 10
+      },
       "realm_configs": [
         {
           "id": 0,
           "rpc_url": [
             "https://realm0-stg.psy-protocol.xyz"
-          ]
+          ],
+          "validators": []
         },
         {
           "id": 1,
           "rpc_url": [
             "https://realm1-stg.psy-protocol.xyz"
-          ]
+          ],
+          "validators": []
         }
       ],
       "coordinator_configs": [
@@ -142,18 +152,23 @@
       "global_user_tree_height": 32,
       "realm_user_tree_height": 20,
       "group_realm_height": 1,
+      "p2p": {
+        "checkpoints_per_epoch": 10
+      },
       "realm_configs": [
         {
           "id": 0,
           "rpc_url": [
             "https://realm0.psy.xyz"
-          ]
+          ],
+          "validators": []
         },
         {
           "id": 1,
           "rpc_url": [
             "https://realm1.psy.xyz"
-          ]
+          ],
+          "validators": []
         }
       ],
       "coordinator_configs": [
