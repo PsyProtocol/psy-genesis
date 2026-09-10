@@ -31,6 +31,9 @@
       "prove_proxy_url": [
         "http://127.0.0.1:9999"
       ],
+      "system_prove_proxy_url": [
+        "http://127.0.0.1:9999"
+      ],
       "faucet_rpc_url": [
         "http://127.0.0.1:9998"
       ],
@@ -95,6 +98,9 @@
         }
       ],
       "prove_proxy_url": [
+        "https://prove-stg.psy-protocol.xyz"
+      ],
+      "system_prove_proxy_url": [
         "https://prove-stg.psy-protocol.xyz"
       ],
       "faucet_rpc_url": [
@@ -163,6 +169,9 @@
         }
       ],
       "prove_proxy_url": [
+        "https://prove.psy.xyz"
+      ],
+      "system_prove_proxy_url": [
         "https://prove.psy.xyz"
       ],
       "faucet_rpc_url": [
