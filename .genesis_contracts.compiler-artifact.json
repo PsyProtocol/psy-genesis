@@ -1,6 +1,10 @@
 {
-  "compilerRevision": "493c616a42ffde1d3cdc06076866147f0c64e970",
-  "compilerSourcesHash": "d028f38c3dfe77eca2f88fc7fc93271ba02cfbbf425751aabb32a6cd0f009096",
-  "artifactSha256": "315d534a5d04d025c82b3df2431c851a4b3e12a9d2f9100f41f12fbbfb733e79",
-  "artifactByteSize": 9591333
+  "compilerRevision": "469d15f80e7e32c2c0e355aa9c32603f80751600",
+  "compilerSourcesHash": "8ff54084ffa6f2abb80c24f153c9f7d11f7a9f3983d8133b1318164e571d36b4",
+  "artifactSha256": "38b0a0af5735c53e7d581da39c9e9cc5151f13170e91263642a5fb2d92ed207b",
+  "artifactByteSize": 9713847,
+  "tokenArtifactSha256": "36ccb532e079e3ad0864bb0b4e140360509f110d508ccb8e8089837866010d65",
+  "tokenArtifactByteSize": 189390,
+  "tokenUpdateArtifactSha256": "277f71db044bc9c684676cc16ea67f74c8736507f326278cb7ec6801bae4da0e",
+  "tokenUpdateArtifactByteSize": 187179
 }
