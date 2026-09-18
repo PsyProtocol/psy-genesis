@@ -69,8 +69,8 @@
       ],
       "l1_config_url": "http://127.0.0.1:5177/config.json"
     },
-    "sepolia": {
-      "magic": "0x1337CF514544C169",
+    "testnet": {
+      "magic": "0x1337CF514544CF69",
       "users_per_realm": 1048576,
       "global_user_tree_height": 32,
       "realm_user_tree_height": 20,
@@ -140,7 +140,7 @@
         "secp256k1": []
       }
     },
-    "ethereum": {
+    "mainnet": {
       "magic": "0x1337CF514544C069",
       "users_per_realm": 1048576,
       "global_user_tree_height": 32,
