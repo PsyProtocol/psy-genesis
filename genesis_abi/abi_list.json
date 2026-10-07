@@ -42,6 +42,13 @@
       "deployer": 0,
       "abi_path": "PsyFaucetContract.json",
       "state_tree_height": 31
+    },
+    {
+      "contract_id": 6,
+      "name": "multisig_policy",
+      "deployer": 0,
+      "abi_path": "MultisigPolicyContract.json",
+      "state_tree_height": 4
     }
   ],
   "contracts": []
