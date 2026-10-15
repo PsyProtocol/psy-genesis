@@ -10,10 +10,10 @@
     },
     {
       "contract_id": 1,
-      "name": "mining_rewards",
+      "name": "multisig_policy",
       "deployer": 0,
-      "abi_path": "PsyPOWMiningRewardsClaimContract.json",
-      "state_tree_height": 23
+      "abi_path": "MultisigPolicyContract.json",
+      "state_tree_height": 4
     },
     {
       "contract_id": 2,
