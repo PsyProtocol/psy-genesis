@@ -1,10 +1,10 @@
 {
-  "compilerRevision": "09ef29fcc9fe0aa054048ef31951014007962670",
-  "compilerSourcesHash": "d96f768d287942c89c768434061231ed27f75928192b0a6fd5b37644f1af69de",
-  "artifactSha256": "18514f95d5fe19fb05ad703302f6c916eff2ffc761b5a9fd694926292959fc8b",
-  "artifactByteSize": 9906609,
-  "tokenArtifactSha256": "751177e6cbba1e755076fc9721b409d738e0e9df33e079e48b3b9d7506ea08c2",
-  "tokenArtifactByteSize": 182485,
-  "tokenUpdateArtifactSha256": "d4eb30144b4d80620be629ff96ba892d9bff2ec49b6264cee901607eab8488f6",
-  "tokenUpdateArtifactByteSize": 181278
+  "compilerRevision": "36af8577b2807f4005bc4a09980eb9c8b4b29884",
+  "compilerSourcesHash": "da3ba0caaec6ef1bc54e0c7dfe8ec841c19dcef8cdc88eee8b28884500e5d8a3",
+  "artifactSha256": "6b4cacfcf61e28ecb5b18cd7bc81d6ddb37d73b4945a1fc64d811918768242f8",
+  "artifactByteSize": 9883985,
+  "tokenArtifactSha256": "16205910f5fa9d3dd5534a7039824ba92d198656167d872868185edb409bfc91",
+  "tokenArtifactByteSize": 195796,
+  "tokenUpdateArtifactSha256": "0a88b6dc903236c954eaf13a05578a4bfcd758d878efdf8018678e3abdf382e1",
+  "tokenUpdateArtifactByteSize": 194589
 }
