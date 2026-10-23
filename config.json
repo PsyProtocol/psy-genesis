@@ -74,7 +74,13 @@
       "bridge_url": [
         "http://127.0.0.1:5177"
       ],
-      "l1_config_url": "http://127.0.0.1:5177/config.json"
+      "l1_config_url": "http://127.0.0.1:5177/config.json",
+      "guardian_configs": [
+        { "id": 1, "listen_address": "127.0.0.1:15441" },
+        { "id": 2, "listen_address": "127.0.0.1:15442" },
+        { "id": 3, "listen_address": "127.0.0.1:15443" }
+      ],
+      "guardian_history": { "listen_address": "127.0.0.1:15450" }
     },
     "testnet": {
       "magic": "0x1337CF514544CF69",
