@@ -7,7 +7,7 @@
       "realm_user_tree_height": 20,
       "group_realm_height": 1,
       "p2p": {
-        "checkpoints_per_epoch": 10
+        "checkpoints_per_epoch": 32
       },
       "realm_configs": [
         {
@@ -75,6 +75,11 @@
         "http://127.0.0.1:5177"
       ],
       "l1_config_url": "http://127.0.0.1:5177/config.json",
+      "guardian_initial_member_hashes": [
+        "369f931d040215ab13a17543e192de04cbcd196cda45b7fccb4654fdd2fb9433",
+        "729f3654f46153150ece19848daac59154ef8ebcd7ee3201a94281d26629807f",
+        "dae1fd8dc53e96e3b055d860be9165d64b38128b1279cce12f00e1032e3407a3"
+      ],
       "guardian_configs": [
         { "id": 1, "listen_address": "127.0.0.1:15441" },
         { "id": 2, "listen_address": "127.0.0.1:15442" },
@@ -89,7 +94,7 @@
       "realm_user_tree_height": 20,
       "group_realm_height": 1,
       "p2p": {
-        "checkpoints_per_epoch": 10
+        "checkpoints_per_epoch": 32
       },
       "realm_configs": [
         {
@@ -165,7 +170,7 @@
       "realm_user_tree_height": 20,
       "group_realm_height": 1,
       "p2p": {
-        "checkpoints_per_epoch": 10
+        "checkpoints_per_epoch": 32
       },
       "realm_configs": [
         {
