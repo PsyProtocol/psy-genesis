@@ -22,7 +22,7 @@ Referenced by: [psy-node](https://github.com/PsyProtocol/psy-node), [psy-wallet]
 
 ## Current Testnet Preparation (2026-10-31)
 
-Published Compiler: `81e0a022d7d323fa8707cd1cfa06a858943ad5aa`.
+Published Compiler: `e9cc57fe5b1d7068f5c40f03b8b7f03058f6813f`.
 Consumed Node source: `15d6316d1bd28bb535698a4797e3c6261e6c9597`.
 Compiler and Genesis use `prepare/sd192-20261030` for preparation; the Node source is
 published on `testnet-dev` and `prepare/testnet-dev-runtime-20261031`.
@@ -35,10 +35,20 @@ stopped before contract compilation because Make expected a repository-local
 tool; the successful rerun used the supported `DARGO` override to the binary
 just built in the external Cargo target. No stamp fields were manually edited.
 
-The compressed contract bundle, token artifacts and all ABI files are
-byte-identical to preparation `a486a5314ce81f63dad76f9839f69380f0784be0`.
-Only Compiler provenance changes; source-pin alignment is not a circuit change.
-The automatic sidecar remains authoritative for artifact byte sizes and hashes.
+The first actual network-Genesis attempt with predecessor `6ec29ad9` failed
+closed at token0: the compiler ABI omitted `contract.state_layout`. The narrow
+Compiler port of `4579984c` restores the canonical metadata; all 25 `psy-abi`
+release tests pass, including six canonical-layout regressions. This fixes a
+missing producer output, not a reason to default consensus layouts to zero.
+
+The compressed contract bundle remains byte-identical to `6ec29ad9`
+(`0f4a4a8cbeaff5621d05fa795b6aa157809eb5753fde1c5da62027753bbb9c9f`).
+The two token artifacts and six sidecar ABIs now contain the canonical layout.
+Lossless JSON comparison against that predecessor confirms every other value
+is unchanged; circuit definitions, token methods, storage footprints, types,
+privacy fingerprints and network config did not change. The ABI index is
+byte-identical. The automatic sidecar binds the new token hashes and Compiler
+revision; do not reuse the predecessor's artifact hashes.
 
 This is the public contract-artifact prerequisite for the 192-word cohort, not
 the actual-key network `genesis.json`, final SDK/WASM, proving setup or bridge
