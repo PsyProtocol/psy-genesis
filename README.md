@@ -20,7 +20,33 @@ git submodule add git@github.com:PsyProtocol/psy-genesis.git
 
 Referenced by: [psy-node](https://github.com/PsyProtocol/psy-node), [psy-wallet](https://github.com/PsyProtocol/psy-wallet), [psy-sdk](https://github.com/PsyProtocol/psy-sdk)
 
-## Deterministic Regeneration (2026-09-18)
+## Current Testnet Preparation (2026-10-31)
+
+Published Compiler: `81e0a022d7d323fa8707cd1cfa06a858943ad5aa`.
+Consumed Node source: `15d6316d1bd28bb535698a4797e3c6261e6c9597`.
+Compiler and Genesis use `prepare/sd192-20261030` for preparation; the Node source is
+published on `testnet-dev` and `prepare/testnet-dev-runtime-20261031`.
+
+The clean Compiler completed the original `make gen-deploy-json` recipe in the
+pinned Bookworm environment with `PSY_NETWORK=testnet` and the canonical
+epoch-32 config. All six contract circuit sets, the token update variant, ABI
+exports and automatic provenance completed with a zero exit. An initial run
+stopped before contract compilation because Make expected a repository-local
+tool; the successful rerun used the supported `DARGO` override to the binary
+just built in the external Cargo target. No stamp fields were manually edited.
+
+The compressed contract bundle, token artifacts and all ABI files are
+byte-identical to preparation `a486a5314ce81f63dad76f9839f69380f0784be0`.
+Only Compiler provenance changes; source-pin alignment is not a circuit change.
+The automatic sidecar remains authoritative for artifact byte sizes and hashes.
+
+This is the public contract-artifact prerequisite for the 192-word cohort, not
+the actual-key network `genesis.json`, final SDK/WASM, proving setup or bridge
+E2E acceptance. No keys, live chain state, L1 contracts or npm packages changed.
+Final network Genesis and parent gitlink promotion remain separate release
+steps. Do not substitute this preparation branch for an accepted release lock.
+
+## Historical Deterministic Regeneration (2026-09-18)
 
 Compiler: `bb79f3ff335d36560b8b6eae880c8404d662d27c`.
 Consumed Node source: `769711acfe3ba23dc0124f961ff361478e52b89b`.
