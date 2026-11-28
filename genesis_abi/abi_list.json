@@ -13,7 +13,7 @@
       "name": "multisig_policy",
       "deployer": 0,
       "abi_path": "MultisigPolicyContract.json",
-      "state_tree_height": 4
+      "state_tree_height": 11
     },
     {
       "contract_id": 2,
